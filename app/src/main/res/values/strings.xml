@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Loggy</string>
+    <string name="logout">Logout</string>
+    <string name="logout_and_forget">Logout and forget</string>
+</resources>

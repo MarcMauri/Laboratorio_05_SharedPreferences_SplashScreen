@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:ems="11"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextEmail"
+        android:layout_alignLeft="@id/editTextEmail"
+        android:layout_alignRight="@+id/editTextEmail"
+        android:layout_alignStart="@id/editTextEmail"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Switch
+        android:id="@+id/switchRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextPassword"
+        android:layout_alignRight="@+id/editTextPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="15dp"
+        android:text="Remember"
+        android:textOff="No"
+        android:textOn="Yes" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextPassword"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:layout_alignRight="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextPassword"
+        android:layout_below="@id/switchRemember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:text="LOG IN" />
+</RelativeLayout>
